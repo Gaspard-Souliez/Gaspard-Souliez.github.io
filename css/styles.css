@@ -1,0 +1,173 @@
+body {
+    margin: 0%;
+	font-family: serif;
+	background: linear-gradient(to right,hsl(210, 29%, 24%, 0.9),hsl(210, 29%, 24%, 0.9)), url(../img/2231_generated.jpg);
+}
+
+header{
+    background-color: #34495e;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    transition: transform 0.3s ease-in-out;
+}
+
+header.hidden {
+    transform: translateY(-100%);
+}
+
+header p{
+    margin: 0%;
+    font-size: 25px;
+    color: white;
+    position: absolute  ;
+    height: 50px;
+    width: 200px;
+    line-height: 8vh;
+    padding-left: 20px;
+}
+
+header p::first-letter{
+    color: #1abc9c  ;
+}
+
+#Souliez{
+    left: 6%;
+}
+
+.maj{
+    color: #1abc9c;
+}
+
+nav{
+	position: relative;
+	top: 0;
+    left: 60%;
+	width: 600px;
+	height: 8vh;
+	background: #34495e;
+	font-size: 0;
+}
+
+nav a{
+	font-size: 17px;
+	text-transform: uppercase;
+	color: white;
+	text-decoration: none;
+	line-height: 8vh;
+	position: relative;
+	z-index: 1;
+	display: inline-block;
+	text-align: center;
+}
+
+nav a::first-letter{
+    color: #1abc9c;
+}
+
+nav .animation{
+	position: absolute;
+	height: 5px;
+	bottom: 0;
+	z-index: 0;
+	background: #1abc9c;
+	transition: all .5s ease 0s;
+    border-radius: 8px;
+}
+
+nav a:nth-child(1){
+	width: 100px;
+}
+
+nav .start-home, a:nth-child(1):hover~.animation{
+	width: 100px;
+	left: 0;
+}
+
+nav a:nth-child(2){
+	width: 140px;
+}
+
+nav a:nth-child(2):hover~.animation{
+	width: 120px;
+	left: 110px;
+}
+
+nav a:nth-child(3){
+	width: 140px;
+}
+
+nav a:nth-child(3):hover~.animation{
+	width: 140px;
+	left: 240px;
+}
+
+nav a:nth-child(4){
+	width: 120px;
+}
+
+nav a:nth-child(4):hover~.animation{
+	width: 100px;
+	left: 390px;
+}
+
+nav a:nth-child(5){
+	width: 100px;
+}
+
+nav a:nth-child(5):hover~.animation{
+	width: 100px;
+	left: 500px;
+}
+
+.accueil{
+    width: 100%;
+    height: 92vh;
+}
+
+.accueil p{
+    color: white;
+    margin: 0%;
+    text-align: center;
+}
+
+#titre{
+    position: absolute;
+    height: 170px;
+    width: 780px;
+    top: 170px;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 70px;
+    text-transform: uppercase;
+    background-color: #34495e;
+    border-radius: 10px;
+    padding-top: 10px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+#desc{
+    position: absolute;
+    top: 400px;
+    width: 600px;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 22px;
+    color: #dcdcdc;
+    text-align: center;
+    padding: 10px;
+}
+
+.maj .lettre{   
+    color: #1abc9c;    
+}
+
+#formation{
+    height: 200vh;
+    width: 100% ;
+    background-color: #34495e;
+}
+
+
