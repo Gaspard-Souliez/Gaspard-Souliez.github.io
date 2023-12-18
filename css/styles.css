@@ -164,7 +164,7 @@ nav a:nth-child(6):hover~.animation{
     left: 50%;
     transform: translate(-50%);
     font-size: 22px;
-    color: #dcdcdc;
+    color: white;
     text-align: center;
     padding: 10px;
 }
@@ -489,32 +489,342 @@ nav a:nth-child(6):hover~.animation{
     background-color: white;
 }
 
-.carousel-container {
+#comp_tec{
+    background: linear-gradient(to right,hsl(210, 29%, 24%, 0.9),hsl(210, 29%, 24%, 0.9)), url(../img/fond_titre.png);
     position: absolute;
-    left: 50%;
+    left: 25%;
     transform: translate(-50%);
-    width: 1000px;
-    top: 355vh;
+    top: 335vh;
+    padding: 15px;
+    margin: 0;
+    margin-top: 70px;
+    font-size: 30px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+#comp_gen{
+    background: linear-gradient(to right,hsl(210, 29%, 24%, 0.9),hsl(210, 29%, 24%, 0.9)), url(../img/fond_titre.png);
+    position: absolute;
+    left: 75%;
+    transform: translate(-50%);
+    top: 335vh;
+    padding: 15px;
+    margin: 0;
+    margin-top: 70px;
+    font-size: 30px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+#td{
+    background: linear-gradient(to right,hsl(210, 29%, 24%, 0.9),hsl(210, 29%, 24%, 0.9)), url(../img/fond_titre.png);
+    position: absolute;
+    left: 67%;
+    transform: translate(-50%);
+    top: 360vh;
+    padding: 10px;
+    margin: 0;
+    font-size: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+#com{
+    background: linear-gradient(to right,hsl(210, 29%, 24%, 0.9),hsl(210, 29%, 24%, 0.9)), url(../img/fond_titre.png);
+    position: absolute;
+    left: 82%;
+    transform: translate(-50%);
+    top: 362vh;
+    padding: 10px;
+    margin: 0;
+    font-size: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+#crea{
+    background: linear-gradient(to right,hsl(210, 29%, 24%, 0.9),hsl(210, 29%, 24%, 0.9)), url(../img/fond_titre.png);
+    position: absolute;
+    left: 73%;
+    transform: translate(-50%);
+    top: 370vh;
+    padding: 10px;
+    margin: 0;
+    font-size: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+#auto{
+    background: linear-gradient(to right,hsl(210, 29%, 24%, 0.9),hsl(210, 29%, 24%, 0.9)), url(../img/fond_titre.png);
+    position: absolute;
+    left: 67%;
+    transform: translate(-50%);
+    top: 379vh;
+    padding: 10px;
+    margin: 0;
+    font-size: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+#moti{
+    background: linear-gradient(to right,hsl(210, 29%, 24%, 0.9),hsl(210, 29%, 24%, 0.9)), url(../img/fond_titre.png);
+    position: absolute;
+    left: 81%;
+    transform: translate(-50%);
+    top: 374vh;
+    padding: 10px;
+    margin: 0;
+    font-size: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+#pointtd{
+    position: absolute;
+    top: 364vh;
+    left: 75%;
+    transform: translate(-50%);
+    width: 15px;
+    height: 15px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #1abc9c;
+}
+
+#pointcrea{
+    position: absolute;
+    top: 372.5vh;
+    left: 68%;
+    transform: translate(-50%);
+    width: 15px;
+    height: 15px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #1abc9c;
+}
+
+#pointauto{
+    position: absolute;
+    top: 382vh;
+    left: 73%;
+    transform: translate(-50%);
+    width: 15px;
+    height: 15px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: #1abc9c;
+}
+
+#competences #point1{
+    position: absolute;
+    top: 368vh;
+    left: 35%;
+    transform: translate(-50%);
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background-color: #1abc9c;
+}
+
+#competences #point2{
+    position: absolute;
+    top: 366vh;
+    left: 35%;
+    transform: translate(-50%);
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: #1abc9c;
+}
+
+
+#competences #point3{
+    position: absolute;
+    top: 367vh;
+    left: 36%;
+    transform: translate(-50%);
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: #1abc9c;
+}
+
+#competences #point4{
+    position: absolute;
+    top: 367vh;
+    left: 34%;
+    transform: translate(-50%);
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: #1abc9c;
+}
+
+#competences #point5{
+    position: absolute;
+    top: 387vh;
+    left: 15%;
+    transform: translate(-50%);
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background-color: #1abc9c;
+}
+
+#competences #point6{
+    position: absolute;
+    top: 390.5vh;
+    left: 15%;
+    transform: translate(-50%);
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: #1abc9c;
+}
+
+
+#competences #point7{
+    position: absolute;
+    top: 389.5vh;
+    left: 14%;
+    transform: translate(-50%);
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: #1abc9c;
+}
+
+#competences #point8{
+    position: absolute;
+    top: 389.5vh;
+    left: 16%;
+    transform: translate(-50%);
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: #1abc9c;
+}
+
+
+.slider-1 {
+    position: absolute;
+    background: linear-gradient(to right,hsl(210, 29%, 24%, 0.9),hsl(210, 29%, 24%, 0.9)), url(../img/fond_titre.png);
+    border-radius: 10px;
+    top: 345vh;
+    left: 17%;
+    transform: translate(-50%);
+    max-width: 300px;
+    margin: 100px auto;
     overflow: hidden;
-}
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px; 
+  }
 
-.carousel {
+  .slider-2 {
+    position: absolute;
+    background: linear-gradient(to right,hsl(210, 29%, 24%, 0.9),hsl(210, 29%, 24%, 0.9)), url(../img/fond_titre.png);
+    border-radius: 10px;
+    top: 365vh;
+    left: 33%;
+    transform: translate(-50%);
+    max-width: 300px;
+    margin: 100px auto;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px; 
+  }
+
+  .slider-1 img {
+    flex-shrink: 0;
+    margin: 10px 99px;
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+  }
+
+  .slider-2 img {
+    flex-shrink: 0;
+    margin: 10px 100px;
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+  }
+
+  .slider-1 .slider {
+    animation: slider-1 12s infinite ease-in-out;
     display: flex;
-    animation: scroll 10s linear infinite; /* Ajustez la durée en fonction de vos besoins */
-}
+  }
 
-.logo {
+  .slider-2 .slider {
+    animation: slider-1 12s infinite ease-in-out;
+    display: flex;
+  }
+
+  .slider-1 p {
+    flex-shrink: 0;
+    padding: 72px 0;
     width: 100%;
-}
+    text-align: center;
+    font-size: 45px;
+    color: #f1f1f1;
+  } 
 
-@keyframes scroll {
-    0% {
-        transform: translateX(100%);
+  .slider-2 p {
+    flex-shrink: 0;
+    padding: 72px 0;
+    width: 100%;
+    text-align: center;
+    font-size: 45px;
+    color: #f1f1f1;
+  } 
+
+  @keyframes slider-1 {
+    0%,
+    20% {
+      transform: translateX(0);
+    }
+    25%,
+    45% {
+      transform: translateX(-100%);
+    }
+    50%,
+    70% {
+      transform: translateX(-200%);
+    }
+    75%,
+    95% {
+      transform: translateX(-300%);
     }
     100% {
-        transform: translateX(-100%);
+      transform: translateX(-400%);
     }
-}  
+  }
+
+  @keyframes slider-2 {
+    0%,
+    20% {
+      transform: translateX(0);
+    }
+    25%,
+    45% {
+      transform: translateX(-100%);
+    }
+    50%,
+    70% {
+      transform: translateX(-200%);
+    }
+    75%,
+    95% {
+      transform: translateX(-300%);
+    }
+    100% {
+      transform: translateX(-400%);
+    }
+  }
 
 #realisation{
     height: 200vh;
