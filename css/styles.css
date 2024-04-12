@@ -266,7 +266,7 @@ nav a:nth-child(6):hover~.animation{
     border-radius: 100%;
     background-color: #1abc9c;
 }
-
+/*
 #BUT #point1{
     position: absolute;
     z-index: 1;
@@ -290,7 +290,7 @@ nav a:nth-child(6):hover~.animation{
     border-radius: 100%;
     background-color: white;
 }
-
+*/
 #ligne{
     margin: 0%;
     top: 160vh;
@@ -302,7 +302,7 @@ nav a:nth-child(6):hover~.animation{
     background: linear-gradient(white, #1abc9c);
     border-radius: 10px;
 }
-
+/*
 #lignebut{
     position: absolute;
     z-index: 1;
@@ -314,7 +314,7 @@ nav a:nth-child(6):hover~.animation{
     background: linear-gradient(to right,white, #1abc9c, #1abc9c, white);
     border-radius: 10px;
 }
-
+*/
 #BUT #text{
     position: absolute;
     color: white;
@@ -375,7 +375,7 @@ nav a:nth-child(6):hover~.animation{
 #bacinfo{
     margin-bottom: 35px;
 }
-
+/*
 #lignebac{
     position: absolute;
     z-index: 1;
@@ -411,7 +411,7 @@ nav a:nth-child(6):hover~.animation{
     border-radius: 100%;
     background-color: white;
 }
-
+*/
 #bac #date{
     position: absolute;
     height: 100px;
@@ -929,7 +929,7 @@ nav a:nth-child(6):hover~.animation{
 #plusMonstre>a:hover{
     color: #1abc9c;
 }
-
+/*
 #monstre>#ligne{
     position: absolute;
     z-index: 1;
@@ -965,7 +965,7 @@ nav a:nth-child(6):hover~.animation{
     border-radius: 100%;
     background-color: white;
 }
-
+*/
 #titre_projet{
     margin-bottom: 35px;
     font-size: 30px;
@@ -1039,7 +1039,7 @@ nav a:nth-child(6):hover~.animation{
 #plusNintendo>a:hover{
     color: #1abc9c;
 }
-
+/*
 #nintendo>#ligne{
     position: absolute;
     z-index: 1;
@@ -1075,7 +1075,7 @@ nav a:nth-child(6):hover~.animation{
     border-radius: 100%;
     background-color: white;
 }
-
+*/
 #realisation>#sep2{
     position: absolute;
     z-index: 1;
@@ -1135,7 +1135,7 @@ nav a:nth-child(6):hover~.animation{
 #plusTD>a:hover{
     color: #1abc9c;
 }
-
+/*
 #equipe>#ligne{
     position: absolute;
     z-index: 1;
@@ -1171,7 +1171,7 @@ nav a:nth-child(6):hover~.animation{
     border-radius: 100%;
     background-color: white;
 }
-
+*/
 #realisation>#sep3{
     position: absolute;
     z-index: 1;
@@ -1231,7 +1231,7 @@ nav a:nth-child(6):hover~.animation{
 #plusAppli>a:hover{
     color: #1abc9c;
 }
-
+/*
 #appli>#ligne{
     position: absolute;
     z-index: 1;
@@ -1267,7 +1267,7 @@ nav a:nth-child(6):hover~.animation{
     border-radius: 100%;
     background-color: white;
 }
-
+*/
 #sep3 #ligne{
     position: absolute;
     z-index: 1;
